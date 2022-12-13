@@ -15,24 +15,8 @@ import "../../assets/styles/LogSection.css";
 
 const LogSection = ({ user }) => {
   const [records, setRecords] = useState([]);
-  // const [user, setUser] = useState({});
 
   const navigate = useNavigate();
-
-  // const check = async () => {
-  //   const res = await fetch("/api/currUser", {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  //   if (res.ok) {
-  //     const result = await res.json();
-  //     setUser(result);
-  //   } else {
-  //     navigate("/login");
-  //   }
-  // };
 
   const getRecords = async () => {
     const res = await fetch("/api/records", {
@@ -57,10 +41,6 @@ const LogSection = ({ user }) => {
       console.log(res.err);
     }
   };
-
-  // useEffect(() => {
-  //   check();
-  // }, []);
 
   useEffect(() => {
     if (user.id) getRecords();

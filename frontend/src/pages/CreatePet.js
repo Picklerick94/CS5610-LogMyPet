@@ -32,26 +32,6 @@ const CreatePet = () => {
     check();
   }, []);
 
-  const getPets = async () => {
-    const res = await fetch("/api/pets", {
-      method: "POST",
-      body: JSON.stringify(user),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    if (res.ok) {
-      const result = await res.json();
-      if (result.length > 0) navigate("/");
-    } else {
-      console.log("Failed to load pets.");
-    }
-  };
-
-  useEffect(() => {
-    if (user.id) getPets();
-  }, [user]);
-
   const handleCancel = () => {
     navigate("/");
   };
