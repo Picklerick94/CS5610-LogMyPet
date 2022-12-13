@@ -1,29 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
+
 import PetSectionHeader from "./PetSectionHeader";
 import PetSectionProfile from "./PetSectionProfile";
 import PetSectionPets from "./PetSectionPets";
 
 const PetSection = ({ user }) => {
-  // const navigate = useNavigate();
-  // const [user, setUser] = useState({});
   const [pets, setPets] = useState([]);
-
-  // const check = async () => {
-  //   const res = await fetch("/api/currUser", {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  //   if (res.ok) {
-  //     const result = await res.json();
-  //     setUser(result);
-  //   } else {
-  //     navigate("/login");
-  //   }
-  // };
 
   const loadData = async () => {
     const res = await fetch("/api/pets", {
@@ -43,10 +26,6 @@ const PetSection = ({ user }) => {
       console.log("Failed to load pets.");
     }
   };
-
-  // useEffect(() => {
-  //   check();
-  // }, []);
 
   useEffect(() => {
     if (user.id) loadData();
