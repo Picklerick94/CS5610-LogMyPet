@@ -12,7 +12,7 @@ This is the repo of [LogMyPet](https://github.com/YixiangXie-NEU/LogMyPet).
 
 **Class Link**: [link](https://johnguerra.co/classes/webDevelopment_fall_2022/)
 
-**Project Objective**: For project 3, we are required to create a full stack application with Node + Express + Mongo as the backend and React with hooks as the frontend. We decided to build a platform that allows the users to create profiles for their pets and to log several behaviors for their pets, such as drinking water, eating food or defecating. For project 4, we are required to iterate over project 3 incorporating concepts of design, accessibility and usability.
+**Project Objective**: For project 3, we are required to create a full stack application with Node + Express + Mongo as the backend and React with hooks as the frontend. We decided to build a platform that allows the users to create profiles for their pets and to log several behaviors for their pets, such as drinking water, eating food or defecating. For the final project, we are required to iterate over project 3 incorporating concepts of design, accessibility and usability. **Updates and changes are documented in Usability test report.**
 
 **Screenshot**:
 
@@ -35,17 +35,23 @@ This is the repo of [LogMyPet](https://github.com/YixiangXie-NEU/LogMyPet).
 **Color palette**:
 <img width="988" alt="image" src="https://user-images.githubusercontent.com/113476679/207227395-ccbea4d5-db72-4117-ab57-1d69a28f5e07.png">
 
-**Design document**: [link](https://docs.google.com/document/d/16rWFdmIpdwGWzglFKyjteMEkSaJHJNAs5pNcU7eDYj0/edit?usp=sharing)
+**Demo**: To view the deployed demo website, go to [https://log-my-pet.herokuapp.com](https://log-my-pet.herokuapp.com) and login with `admin123` and `1234567`.
+
+**First iteration design document**: [link](https://docs.google.com/document/d/16rWFdmIpdwGWzglFKyjteMEkSaJHJNAs5pNcU7eDYj0/edit?usp=sharing)
+
+**Final design document**: [link](https://docs.google.com/document/d/1O8Ww3U9gcc2mt0ErkId5PLZ35BI_3lrwp4VHj89zX8E/edit?usp=sharing)
+
+**Usability test report**: [link](https://docs.google.com/document/d/1JyqZnTYznxYMEqxGG4KpygLSWD2Z1Vk7X5Xms_37zzY/edit?usp=sharing)
 
 **Design mockup**: [link](https://www.figma.com/file/kyL3RojSAam6b4RxOKTzTF/PetHabit?node-id=0%3A1)
 
 **First iteration introduction slides**: [link](https://docs.google.com/presentation/d/19ZK8kJeYIDDTnDwqYiGKI07whW3-gMjaf_3VJhFXx94/edit?usp=sharing)
 
-**Second iteration introduction slides**: [link]()
+**Final introduction slides**: [link](https://docs.google.com/presentation/d/1jMnp95eSPz5rhe-a7HvKGGdBR_H_l1vJUIUiSivhxeQ/edit?usp=sharing)
 
 **First iteration demo video**: [link](https://youtu.be/y4Sch-2FSwQ)
 
-**Second iteration demo video**: [link]()
+**Final demo video**: [link](https://youtu.be/ZEmmdK57vbY)
 
 **Technical requirements**: React with hooks, Bootstrap, Node, Express, Mongo
 
